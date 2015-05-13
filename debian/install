@@ -1,0 +1,7 @@
+lib/*             usr/share/pad/lib/
+node_modules/*    usr/share/pad/node_modules/
+public/*          usr/share/pad/public/
+views/*           usr/share/pad/views/
+app.js            usr/share/pad/
+desktop.js        usr/share/pad/
+package.json      usr/share/pad/

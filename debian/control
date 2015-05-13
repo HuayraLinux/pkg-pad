@@ -1,0 +1,15 @@
+Source: pad
+Section: misc
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0),
+Standards-Version: 3.9.6
+Homepage: http://github.com/HuayraLinux/pkg-pad
+Vcs-Git: http://github.com/HuayraLinux/pkg-pad.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/huayra-stopmotion.git;a=summary
+
+Package: pad
+Architecture: all
+Depends: ${misc:Depends}, nodejs, nodejs-legacy
+Description: Programa de Alfabetización Digital
+ Plataforma de alfabetización digital utilizando EPM como kernel
