@@ -1,0 +1,2 @@
+version=3
+https://github.com/Dte-ba/pad/tags .*/v(\d+.\d+.\d+)\.tar\.gz

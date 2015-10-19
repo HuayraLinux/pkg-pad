@@ -2,7 +2,8 @@ Source: pad
 Section: misc
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends: debhelper (>= 8.0.0),
+Build-Depends: debhelper (>= 8.0.0),nodejs, nodejs-legacy, npm, 
+ node-grunt-cli, git-core
 Standards-Version: 3.9.6
 Homepage: http://github.com/HuayraLinux/pkg-pad
 Vcs-Git: http://github.com/HuayraLinux/pkg-pad.git
@@ -10,6 +11,6 @@ Vcs-Git: http://github.com/HuayraLinux/pkg-pad.git
 
 Package: pad
 Architecture: all
-Depends: ${misc:Depends}, nodejs, nodejs-legacy
+Depends: ${misc:Depends}, node-webkit
 Description: Programa de Alfabetización Digital
  Plataforma de alfabetización digital utilizando EPM como kernel
